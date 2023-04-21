@@ -54,6 +54,6 @@ function makeBionic(text) {
 
 // Initial Load
 const sampleText =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tempore consequatur beatae aspernatur quis illum soluta cupiditate fugiat natus minus suscipit hic quas et, dolorem quod voluptas quae voluptatibus molestiae iure! Eligendi ratione minus quidem sint fuga! Laudantium dignissimos provident quaerat impedit, facilis eius ad, sed est excepturi blanditiis dolorum, nesciunt dolorem tempora expedita odio voluptate reiciendis sunt aperiam veritatis fugiat culpa aut soluta. Quam repudiandae obcaecati eius ipsam numquam!";
+  "Dyslexia is a language-based learning disorder which can lead to difficulties in reading, spelling, and writing. This is because individuals with dyslexia may have trouble identifying phonemes (or speech sounds) and connecting them with the letters that represent them. With an estimated 9–12% of the worldwide population affected by dyslexia, how do we design our online UX experiences to best accommodate their needs?";
 input.value = sampleText;
 makeBionic(input.value);

@@ -87,7 +87,6 @@ input {
 
 #input-title,
 #output-title {
-  grid-row: 3/4;
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: center;
@@ -96,16 +95,13 @@ input {
 }
 
 #input-title {
-  grid-column: 1/2;
 }
 
 #output-title {
-  grid-column: 2/3;
 }
 
 #input,
 #output {
-  grid-row: 4/5;
   resize: none;
   width: 300px;
   min-height: 250px;

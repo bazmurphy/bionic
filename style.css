@@ -66,9 +66,17 @@ label {
 
 #input-output-container {
   display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 15px;
+}
+
+@media (min-width: 500px) {
+ #input-output-container {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 15px;
 }
+
 
 input {
   font-size: 16px;

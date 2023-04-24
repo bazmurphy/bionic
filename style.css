@@ -8,7 +8,7 @@
 
 body {
   margin-top: 15px;
-  background: hsl(0, 0%, 15%);
+  background: rgb(38, 38, 38);
   display: grid;
   justify-content: center;
 }
@@ -16,7 +16,14 @@ body {
 header,
 footer {
   text-align: center;
-  background-color: hsl(200, 15%, 50%);
+  background-color: rgb(108, 134, 147);
+  background: linear-gradient(
+    120deg,
+    rgb(111, 102, 213) 0%,
+    rgb(22, 105, 200) 25%,
+    rgb(27, 170, 214) 75%,
+    rgb(111, 102, 213) 100%
+  );
 }
 
 header {
@@ -34,7 +41,7 @@ footer {
 }
 
 #header-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 24px;
 }
 
@@ -44,7 +51,14 @@ footer {
 
 main {
   padding: 0 15px 15px;
-  background-color: hsl(200, 15%, 70%);
+  background-color: hsl(202, 15%, 75%);
+  max-width: 340px;
+}
+
+@media (min-width: 601px) {
+  main {
+    max-width: 800px;
+  }
 }
 
 form {
@@ -66,16 +80,15 @@ label {
 
 #input-output-container {
   display: grid;
-  grid-template-columns: 1fr;
   row-gap: 15px;
 }
 
-@media (min-width: 500px) {
- #input-output-container {
-  grid-template-columns: 1fr 1fr;
-  column-gap: 15px;
+@media (min-width: 601px) {
+  #input-output-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+  }
 }
-
 
 input {
   font-size: 16px;
@@ -84,28 +97,31 @@ input {
   font-weight: 600;
 }
 
+#input-container,
+#output-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 #input-title,
 #output-title {
-  padding-top: 10px;
-  padding-bottom: 5px;
-  text-align: center;
   font-size: 20px;
   font-weight: 600;
 }
 
-#input-title {
-}
-
-#output-title {
-}
-
 #input,
 #output {
-  resize: none;
   padding: 15px;
   background-color: hsl(0, 0%, 94%);
   font-size: 18px;
   font-weight: 500;
+}
+
+#input {
+  resize: none;
+  height: 100%;
 }
 
 #output {

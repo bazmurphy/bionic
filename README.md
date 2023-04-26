@@ -1,5 +1,4 @@
-# bionic-reading
-https://cyf-bazmurphy-bionic-reading.netlify.app/
+# Bionic Reading
 
 This was a quick project to help someone with Dyslexia test their Reading Speed with the concept of Bionic Reading applied to any text that was copy/pasted into the Input Box, and allowing a few adjustable parameters applied to the Output in the form of letter spacing and line height.
 
